@@ -107,10 +107,10 @@ Pull the repo with `docker pull wpscanteam/wpscan`
 ## Start WPScan
 
 ```
-docker run -it --rm wpscanteam/wpscan -u https://yourblog.com [options]
+docker run -it --rm The404Hacking/wpscan -u https://yourblog.com [options]
 ```
 
-For the available Options, please see https://github.com/wpscanteam/wpscan#wpscan-arguments
+For the available Options, please see https://github.com/The404Hacking/wpscan#wpscan-arguments
 
 If you run the git version of wpscan we included some binstubs in ./bin for easier start of wpscan.
 
@@ -119,7 +119,7 @@ If you run the git version of wpscan we included some binstubs in ./bin for easi
 Mount a local wordlist to the docker container and start a bruteforce attack for user admin
 
 ```
-docker run -it --rm -v ~/wordlists:/wordlists wpscanteam/wpscan --url https://yourblog.com --wordlist /wordlists/crackstation.txt --username admin
+docker run -it --rm -v ~/wordlists:/wordlists The404Hacking/wpscan --url https://yourblog.com --wordlist /wordlists/crackstation.txt --username admin
 ```
 
 (This mounts the host directory `~/wordlists` to the container in the path `/wordlists`)
@@ -177,14 +177,14 @@ https://rvm.io/integration/gnome-terminal#integrating-rvm-with-gnome-terminal
     rvm install 2.4.2
     rvm use 2.4.2 --default
     echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-    git clone https://github.com/wpscanteam/wpscan.git
+    git clone https://github.com/The404Hacking/wpscan.git
     cd wpscan
     gem install bundler
     bundle install --without test
 
 ## Installing manually (not recommended)
 
-    git clone https://github.com/wpscanteam/wpscan.git
+    git clone https://github.com/The404Hacking/wpscan.git
     cd wpscan
     sudo gem install bundler && bundle install --without test
 
@@ -336,12 +336,28 @@ Debug output...
 
 # GIT REPOSITORY
 
-[https://github.com/wpscanteam/wpscan](https://github.com/wpscanteam/wpscan)
+[https://github.com/The404Hacking/wpscan](https://github.com/The404Hacking/wpscan)
 
 # ISSUES
 
-[https://github.com/wpscanteam/wpscan/issues](https://github.com/wpscanteam/wpscan/issues)
+[WPScan issues](https://github.com/wpscanteam/wpscan/issues)
 
 # DEVELOPER DOCUMENTATION
 
 [http://rdoc.info/github/wpscanteam/wpscan/frames](http://rdoc.info/github/wpscanteam/wpscan/frames)
+
+
+## Download and Clone
+> Download: [https://github.com/The404Hacking/wpscan/archive/master.zip](https://github.com/The404Hacking/wpscan/archive/master.zip)
+
+> Clone: git clone [https://github.com/The404Hacking/wpscan.git](https://github.com/The404Hacking/wpscan.git)
+
+## The404Hacking | Digital UnderGround Team
+[The404Hacking](https://T.me/The404Hacking)
+
+## Follow us !
+[The404Hacking](https://T.me/The404Hacking) - [The404Cracking](https://T.me/The404Cracking)
+
+[Instagram](https://instagram.com/The404Hacking) - [GitHub](https://github.com/The404Hacking)
+
+[YouTube](http://yon.ir/youtube404) - [Aparat](http://www.aparat.com/The404Hacking)
